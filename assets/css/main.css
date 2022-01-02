@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    /* #c9c1ac; */
+}
+::-webkit-progress-bar{
+    color: aquamarine;
+}
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: #0f0f0f;
+    padding: 20px 20px;
+    transition: all 2s ease;
+} 
+
+
+.navbar-background {
+    padding: 5px 20px;
+    
+}
+
+/* #logo# */
+.navbar-brand {
+    /* color: white !important; */
+    font-size: 30px;
+    transition: all 1s ease;
+}
+
+.navbar-brand:hover {
+    color: #ffff !important;
+ }
+
+.nav-link {
+    color: #fff !important;
+    text-decoration: none;
+    transition: all 2s ease;
+    font-size: 23px;
+}
+
+.nav-link:hover{
+    color: #d3325f !important;
+}
+
+.main{
+    text-decoration: none !important;
+    color: #d3325f !important; 
+}
+
+.main:hover{
+    color: #fff !important; 
+}
+.nav-btn{
+    background: transparent;
+    color: #d3325f !important;
+    border: 2px solid #d3325f !important;
+    font-size: 23px;
+    transition: all 2s ease;
+}
+
+.nav-btn:hover{
+    color: #f3f1ff !important ;
+    border: 2px solid #242424;
+    transform: rotate(-10deg)
+}
+
+.collapse li a {
+    display: block;
+}
+
+.toggler-btn{
+    border: 2px solid #d3325f !important;
+    padding: 5px;
+    transition: all 2s ease;
+}
+
+.bar {
+    width: 20px;
+    height: 2px;
+    margin: 3px;
+    background: #d3325f;
+    transition: all 0.5s ease;
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+ 
+.change .bar3 {
+     transform: rotate(45deg) translate(-5px, -8px);
+}
+ 
+/* body{
+    font-family: 'Stylish', sans-serif;
+    background-color: #000 !important;
+     color: #c9c1ac;
+     background: url(./assets/blog-single-img-1.jpg)center/cover fixed no-repeat;
+} */
+
+/* all class of primary-color red */
+.primary-color{
+    color: #d3325f;
+}
+
+/*header*#############*/
+#header{
+    min-height:calc(100vh - 94px);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(blog-single-img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.height-98{
+    min-height:calc(100vh - 94px);
+}
+
+.banner h1{
+    /* border-top: 6px dotted #c9c1ac;
+    border-bottom: 6px dotted #c9c1ac; */
+    animation: fromLeft;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode:forwards;
+}
+
+.banner h1 small{
+    color: #fff;
+}
+
+@keyframes fromLeft{
+    0%{
+        transform:translateX(100px);
+        opacity: 0;
+    }
+    50%{
+        transform:translateX(-30px);
+    }
+    100%{
+        transform: translateX(1);
+        opacity: 1;
+    }
+}
+
+.main-btn{
+    color: #d3325f !important;
+    font-size: 2rem !important;
+    border: 2px solid #d3325f !important;
+    transition:all 1s ease-in-out !important;
+}
+
+
+.main-btn:hover{
+    color: #242424 !important;
+    border: 2px solid #c9c1ac !important;
+    background: #c9c1ac !important;
+}
+
+.sushi-btn{
+    animation: fromRight;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fromRight{
+    0%{
+        transform:translateX(100px);
+        opacity: 0;
+    }
+    50%{
+        transform:translateX(-30px);
+    }
+    100%{
+        transform: translateX(1);
+        opacity: 1;
+    }
+} 
+
+.header-link{
+    color: #d3325f !important;
+    display: inline block;
+     position:absolute; 
+    bottom: 5%;
+    left: 50%;
+    border-radius:10px;
+    transition: all 2s ease;
+    animation:fromBottom;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+    background:#0c090a !important;
+
+}
+
+.header-link:hover{
+    color:#f3e2f2 !important;
+}
+
+@keyframes fromBottom{
+    0%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform:translateY(-20px);
+    }
+}
+
+/*######MENU*/
+#home{
+    background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)); 
+}
+/*####menuitems#*/
+
+.item-conatiner{
+    position: relative;
+    /*for the link*/
+    overflow: hidden;
+    background: linear-gradient(rgb(0,0,0),rgb(0,0,0));
+    transition: all 2s ease;
+}
+
+/* #zoom in animation */
+.item-img{
+    transition: all 2s ease;
+}
+
+.item-container:hover .item-img{
+    transform: scale(1.2);
+    opacity: 0.5; 
+    background-color: #0f0f0f!important;
+}
+
+.item-container:hover{
+    /* outline: 10px solid #d3325f; */
+    outline-offset: 0.8rem;
+}
+
+
+.item-link{
+    margin-left: 1.2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* /* align-items: center; */
+    transform: translate(-75%,-50%);
+    color: #d3325f;
+    font-size: 2rem;
+    border-top: 3px solid  #d3325f;
+    border-bottom: 3px solid #d3325f;
+    transition: all 2s ease;
+    opacity: 0;
+}
+
+.item-container:hover .item-link{
+    opacity: 1;
+}
+
+.item-link:hover{
+    color: #f1f1f1 !important;
+    border-top: 2px solid #c9c1ac;
+    border-bottom: 2px solid #c9c1ac;
+    background: #494f55;
+    color: #242424;
+}
+
+/* aboutttttttttttttttt*/
+.about-picturtes {
+    position: relative;
+}
+
+.about-image {
+    position: absolute;
+    width: 150px;
+    transition: all 2s ease;
+    opacity: 0.9;
+}
+
+.img-1{
+    left: 0%;
+    top: 0%;
+}
+
+
+.img-2{
+    left: 20%;
+    top: 8%;
+    z-index: 10;
+}
+
+
+.img-3{
+    left: 40%;
+    top: 25%;
+    z-index: 20;
+}
+
+.img-4{
+    left: 20%;
+    top: -20%;
+}
+
+.img-5 {
+    left: 0%;
+    top: -45%;
+}
+
+.about-image:hover {
+    outline: 10px solid #494f55;
+    outline-offset: 0.1rem;
+    transform: scale(1.3) rotate(-20deg);
+    z-index: 30;
+    opacity: 1;
+}
+
+.about-pictures:hover .about-image:not(:hover) {
+    opacity: 0.5;
+
+}
+
+/*review section*/
+.review-item {
+    background: rgba(255, 255, 255, 0.7);
+    clip-path: polygon(5% 0, 100% 0, 90% 100%, 0 100%)
+}
+
+.review-img {
+    width: 12em;
+}
+
+/*footer*/
+#back-to-top {
+    background: #000 !important;
+    border-radius: 10px;
+    display: inline-block;
+    
+}
+
+.sushi-log{
+    display: block;
+}
+
+.scrollTop {
+    position: fixed;
+    bottom: 70px;
+    right: 70px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.css">
+    <title>big d's || login or signUp</title>
+</head>
+<body>
+    <div class="myWrapper">
+       <div class="logo">
+           <img class="logo" src="logo1.JPG" alt="">
+           <i class="fa fa-moon"></i>
+       </div>
+       <div class="title">Big d's</div>
+       <div class="fields">
+            <form action="submit" method="post" id="submit">
+                <div class="username">
+                    <i class="fa fa-user"></i>
+                    <input type="text"  class="username-input" name="username" id="" placeholder="username" required>
+                    
+                </div>
+                <span class="errMessage"></span>
+                <div class="password">
+                    <i class="fa fa-lock"></i>
+                    <input type="password"  class="password-input" id="" placeholder="password" required>
+                </div>
+                <span class="errMessage"></span>
+            </form>
+       </div>
+       <button type="submit" id="submit" form="submit" class="signin-button">Log in</button>
+       <div class="link">
+           <a href="#" class="">Forgot password ? </a> <br/>
+           <a href="#">sign Up </a>
+       </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
