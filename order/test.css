@@ -20,6 +20,7 @@ body{
 ::-webkit-scrollbar{
     width: 0;
 }
+
 a{
     text-decoration: none;
     text-transform: none;
@@ -60,7 +61,7 @@ a{
     position: relative;
     top: .1em;
     right: -0.5em;
-    color: #f1f1f179;
+    color: #000;
     /* box-shadow:1px 1px 2px rgba(255, 255, 255, 0.667),
     -1px -1px 2px rgba(0, 0, 0, 0.667); */
 }
@@ -118,7 +119,7 @@ h4{
 .fa-bell:hover,
 .fa-file:hover,
 .fa-shopping-cart:hover{
-    color: #f1f1f1;
+    color:#2196f3;
 }
 
 .addToCart{
@@ -214,7 +215,7 @@ input {
     position: relative;
     cursor: pointer;
     left: .6em;
-    color: rgba(255, 255, 255, 0.363);
+    color: rgba(15, 15, 15, 0.979);
     /* background: #000; */
 }
 
@@ -491,7 +492,8 @@ p + img{
     color: #000;
     border-radius: 25px;
     padding: 25px;
-    width: 19em;
+    width: 22em;
+    box-sizing: border-box;
 }
 
 .caustomer_image{
@@ -651,7 +653,7 @@ button{
 
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+/* .dropdown-content a:hover {background-color: #f1f1f1} */
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 /* .dropbtn:hover{
@@ -709,7 +711,7 @@ button{
        margin: 6px 0 9px 0;
        width: 100%;
        height: 50px;
-       background-color: rgba(255, 255, 255, 0.616);
+       background-color: rgba(255, 255, 255, 0.979);
        border-radius: 18px;
    }
    /* .menu-div ul{
@@ -858,7 +860,7 @@ button{
        transform: translateX(calc(10.9em *3));
    }
    .menu-div div:nth-child(5).active ~ .indicator{
-       transform: translateX(calc(10.3em *4));
+       transform: translateX(calc(11.3px *4));
    }
 
    .home{
@@ -943,6 +945,7 @@ button{
    .caustomer {
        padding: 20px;
        width: 28em;
+       box-sizing: border-box;
    }
    
    .endTotal {
@@ -957,303 +960,7 @@ button{
    }
 }
 
-@media screen and (max-width: 523px) {
-    .dropdown {
-        position: relative;
-        color: #fff;
-        margin-left: 3.2em;
-        /* display: inline-block; */
-    }
 
-    .DISPLAY.display-content {
-        display: none;
-        margin-top: 2em;
-    }
-
-   body{
-         /* background: linear-gradient(to right,#efefbb , #ffeeee); */
-            min-height:calc(100vh - 94px);
-            background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../assets/blog-single-img-1.jpg);
-            background-position: center;
-            background-size: cover;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            position: relative;
-    }
-    .wrapper{
-        /* background-image:url(../assets/foodcx.png); */
-        display: flex;
-        flex-direction: column;
-        /* flex-wrap: wrap; */
-    }
-   
-    .menu-div {
-        position: relative;
-        display:flex;
-        justify-content: space-between;
-        /* align-items: center; */
-        margin: 6px 0 9px 0;
-        width: 100%;
-        height: 50px;
-        background-color: rgba(255, 255, 255, 0.616);
-        border-radius: 18px;
-    }
-    .menu-div ul{
-        display: flex;
-        width: 350px;
-    }
-
-    /* .menu-div ul li{
-        list-style:none;
-        position: relative;
-        width: 70px;
-        height: 50px;
-        z-index: 2;
-    }
-
-    .menu-div ul li a{
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-        font-weight: 500;
-
-    }
-
-    .menu-div ul li a .icon{
-        position: relative;
-        display: block;
-        line-height: 65px;
-        font-size: 1.5em;
-        transition: 0.5s;
-        color: #222327;
-
-    } */
-
-    /* .menu-div ul li.active a .icon{
-        transform: translateY(-30px);
-        color:#2196f3 ;
-    } */
-    .menu-div div.active a .icon{
-        position: absolute;
-        transform: translateY(-21px);
-        color:#2196f3 ;
-    }
-
-    /* .menu-div ul li a .text{
-        position: absolute;
-        background: #2196f3 ;
-        color: #fff;
-        padding: 2px 7px;
-        border-radius: 12px;
-        font-weight: 400;
-        font-size: 0.75em;
-        letter-spacing: 0.05em;
-        transition: 0.5s;
-        opacity: 0;
-        transform: translateY(15px);
-    } */
-
-    /* .menu-div ul li.active a .text{
-    transform:translateY(-4px);
-    opacity: 1;
-    } */
-
-    .menuBtn{
-        /* align-items: center; */
-        /* background-color: #fff; */
-        border-radius: 25px;
-        /* display: inline-block; */
-        /* float: left; */
-        /* margin-left: ; */
-        /* margin: .5em 15px 0 0; */
-        margin-top: 4em;
-        position: relative;
-        top: -4.1em;
-        right: .5em;
-        transition: 0.5s;
-        color: #222327;
-        z-index: 2;
-    }
-
-    .menuBtn.list {
-        width: 70%;
-        height: 30px;
-        padding: 4px;
-    }
-/* 
-    .menuBtn span.home a i{
-        position: absolute;
-        transform: translateY(-21px);
-        color: #2196f3;
-    } */
-
-
-    .indicator{
-        position: absolute;
-        /* top:35px; */
-        top: -30%;
-        /* width: 70px;
-        height: 70px; */
-        width: 50px;
-        height: 50px;
-        background: #fff;
-        border-radius: 50%;
-        z-index: 1;
-        transition: 0.5s;
-        box-shadow: 1px 2px gray;
-    }
-
-    /* .indicator::before{
-        content: "";
-        position: absolute;
-        top: 6px;
-        left: -10px;
-        width: 20px;
-        height: 20px;
-        background: red;
-        border-radius: 50%;
-        box-shadow: 15px 18px #fff;
-    } */
-
-    /* .indicator::after{
-        content: "";
-        position: absolute;
-        top: 6px;
-        right: -10px;
-        width: 20px;
-        height: 20px;
-        background:red;
-        border-radius: 50%;
-        box-shadow: -15px 18px #fff;
-    } */
-
-    .menu-div div:nth-child(1).active ~ .indicator{
-        transform: translateX(calc(5px *0));
-    }
-
-    .menu-div div:nth-child(2).active ~ .indicator{
-        transform: translateX(calc(7.7em *1));
-    }
-    .menu-div div:nth-child(3).active ~ .indicator{
-        transform: translateX(calc(7.3em *2));
-    }
-    .menu-div div:nth-child(4).active ~ .indicator{
-        transform: translateX(calc(7.2em *3));
-    }
-    .menu-div div:nth-child(5).active ~ .indicator{
-        transform: translateX(calc(7.9em *4));
-    }
-
-    .home{
-        position: relative;
-        left: 1.1em;
-    }
-    
-    .heart{
-        position: relative;
-        left: 1.1em;
-    }
-    
-    .file{
-        position: relative;
-        left: .8em;
-    }
-    
-    .bell{
-        position: relative;
-        left: -1.2em;
-    }
-
-    .span {
-        /* border: 2px solid ; */
-        margin-left: .01em;
-        /* width: 90px;
-        height: 90%; */
-        border-radius: 50%;
-        background-color: rgba(255, 0, 0, 0.267);
-        /* opacity: .3; */
-        /* align-items: center; */
-    }
-
-    p.ham {
-        left: 0.2em;
-        top: 0em;
-        line-height: 1;
-    }
-
-    p + img {
-        left: 0.4em;
-        top: -0.6em;
-    }
-
-    .hgroup {
-        /* display: flex; */
-        /* text-transform: capitalize; */
-        align-items: center;
-    }
-    
-    .bestOffers {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    .viewAll {
-        margin-left: 45px;
-    }
-
-    .viewAlls {
-        margin-left: 37.8px;
-    }
-
-    .DISPLAY {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        /* margin-bottom: 2em; */
-    }
-
-    .favorite_restaurants{
-        flex-direction: column;
-        justify-content: space-between;
-        margin-bottom: 2em;
-        text-align: center;
-    }
-
-    .fa-search{
-        cursor: pointer;
-        box-shadow: 0 2px 5px 0 rgb(224, 220, 220);
-        margin-top: 1.5em;
-        border-radius: 50%;
-        padding: .9em;
-        background-color:#fff;
-        position: absolute;
-        top: 2.3em;
-        left: 76%;
-        color: gray;
-    }
-
-    .caustomer {
-        padding: 20px;
-        width: 28em;
-    }
-    
-    .endTotal {
-        width: 30em;
-        margin: auto;
-    }
-
-    .location{
-        position:absolute;
-        top: 1em;
-        left: 9em;
-    }
-
-}
 
 
 
@@ -1288,7 +995,7 @@ button{
     .menu-div div.active a .icon{
         position: absolute;
         transform: translateY(-21px);
-        color:#2196f3 ;
+        color: #2196f3;
     }
 
 
@@ -1324,7 +1031,7 @@ button{
     }
 
     .menu-div div:nth-child(2).active ~ .indicator{
-        transform: translateX(calc(6.1em *1));
+        transform: translateX(calc(.9em *1));
     }
     .menu-div div:nth-child(3).active ~ .indicator{
         transform: translateX(calc(5.4em *2));
@@ -1333,14 +1040,14 @@ button{
         transform: translateX(calc(5.5em *3));
     }
     .menu-div div:nth-child(5).active ~ .indicator{
-        transform: translateX(calc(4.9em *4));
+        transform: translateX(calc(.2em *4));
     }
 
-    p.ham {
+    /* p.ham {
         left: 2em;
         top: 9em;
         line-height: 1;
-    }
+    } */
 
     p + img {
         left: 0.4em;
@@ -1453,7 +1160,7 @@ button{
     .menu-div div.active a .icon{
         position: absolute;
         transform: translateY(-21px);
-        color:#2196f3 ;
+        color:#2196f3;
     }
 
 
@@ -1499,14 +1206,14 @@ button{
         transform: translateX(calc(5.5em *3));
     }
     .menu-div div:nth-child(5).active ~ .indicator {
-        transform: translateX(calc(5.6em *4));
+        transform: translateX(calc(4.9em *4));
     }
 
-    p.ham {
+    /* p.ham {
         left: 3em;
         top: 9em;
         line-height: 1;
-    }
+    } */
 
     p + img {
         left: 0.4em;
