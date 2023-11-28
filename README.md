@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @abed-obaah
-- 👀 I’m interested in front End development
-- 🌱 I’m currently learning react
+- 👀 I’m interested in front End development and backend development
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
