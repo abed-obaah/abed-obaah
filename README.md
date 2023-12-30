@@ -14,7 +14,7 @@
   <li>📫 Reach me via <strong>ubahobaah@gmail.com</strong></li>
 </ul>
 
-<img width="431" src="https://github.com/abed-obaah/abed-obaah/assets/96961755/2d78b061-1383-4ef4-a44f-d5fabcc71187">
+<img width="531" src="https://github.com/abed-obaah/abed-obaah/assets/96961755/2d78b061-1383-4ef4-a44f-d5fabcc71187">
 
 
 <h2>My stacks</h2>
