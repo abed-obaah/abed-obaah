@@ -18,12 +18,7 @@
 
 
 <h2>My stacks</h2>
-<div display="flex"><img width="432" alt="Pro6" src="https://github.com/abed-obaah/abed-obaah/assets/96961755/a9937a46-3910-408c-976c-e2c6b5633e03">
-<img width="432" alt="Pro3" src="https://github.com/abed-obaah/abed-obaah/assets/96961755/74eb16e8-86d6-4802-970a-72043318da0f">
-<img width="431" alt="Pro1" src="https://github.com/abed-obaah/abed-obaah/assets/96961755/4213abcd-7793-4d1d-89fe-6d373a6ca36a">
-![orraweb4](https://github.com/abed-obaah/abed-obaah/assets/96961755/9f22796a-9977-4b2b-a789-813c87c27e75)
-![orra4 (1)](https://github.com/abed-obaah/abed-obaah/assets/96961755/259bd38d-bf5f-468d-b950-c61e7c612b4e)
-
+<div display="flex">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" height="30" width="30" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" height="30" width="30"/>
   <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="30" height="30"/> 
@@ -44,7 +39,13 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/abedobaah?label=abedobaah&color=14171A&labelColor=37474f&logoColor=4fc3f7)](https://twitter.com/abed_obaah)
 [![LinkedIn Connect](https://img.shields.io/badge/%20-Connect-black?color=14171A&labelColor=ffffff&logo=linkedin&logoColor=0e76a8)](https://www.linkedin.com/in/abednego-obaah/)
 
-<img width="431" alt="Pro1" src="https://github.com/abed-obaah/abed-obaah/assets/96961755/6a74be5f-7992-4500-85d8-c659f0948b60">
+<div display="flex">
+<img width="432" alt="Pro6" src="https://github.com/abed-obaah/abed-obaah/assets/96961755/a9937a46-3910-408c-976c-e2c6b5633e03">
+<img width="432" alt="Pro3" src="https://github.com/abed-obaah/abed-obaah/assets/96961755/74eb16e8-86d6-4802-970a-72043318da0f">
+<img width="431" alt="Pro1" src="https://github.com/abed-obaah/abed-obaah/assets/96961755/4213abcd-7793-4d1d-89fe-6d373a6ca36a">
+<!-- ![orraweb4](https://github.com/abed-obaah/abed-obaah/assets/96961755/9f22796a-9977-4b2b-a789-813c87c27e75)
+![orra4 (1)](https://github.com/abed-obaah/abed-obaah/assets/96961755/259bd38d-bf5f-468d-b950-c61e7c612b4e) -->
+</div>
 
 <!-- **abed-obaah/abed-obaah**  ✨ _special_ ✨ -->
 <!-- Here are some ideas to get you started: -->
