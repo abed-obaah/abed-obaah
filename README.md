@@ -14,8 +14,16 @@
   <li>📫 Reach me via <strong>ubahobaah@gmail.com</strong></li>
 </ul>
 
+<img width="431" src="https://github.com/abed-obaah/abed-obaah/assets/96961755/2d78b061-1383-4ef4-a44f-d5fabcc71187">
+
+
 <h2>My stacks</h2>
-<div display="flex">
+<div display="flex"><img width="432" alt="Pro6" src="https://github.com/abed-obaah/abed-obaah/assets/96961755/a9937a46-3910-408c-976c-e2c6b5633e03">
+<img width="432" alt="Pro3" src="https://github.com/abed-obaah/abed-obaah/assets/96961755/74eb16e8-86d6-4802-970a-72043318da0f">
+<img width="431" alt="Pro1" src="https://github.com/abed-obaah/abed-obaah/assets/96961755/4213abcd-7793-4d1d-89fe-6d373a6ca36a">
+![orraweb4](https://github.com/abed-obaah/abed-obaah/assets/96961755/9f22796a-9977-4b2b-a789-813c87c27e75)
+![orra4 (1)](https://github.com/abed-obaah/abed-obaah/assets/96961755/259bd38d-bf5f-468d-b950-c61e7c612b4e)
+
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" height="30" width="30" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" height="30" width="30"/>
   <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="30" height="30"/> 
@@ -43,5 +51,6 @@
 
 <!-- - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...<img width="431" alt="Pro1" src="https://github.com/abed-obaah/abed-obaah/assets/96961755/6a74be5f-7992-4500-85d8-c659f0948b60">
+![og-image](https://github.com/abed-obaah/abed-obaah/assets/96961755/19b5df12-cef9-4009-af80-6cebf221832b)
 
 - 😄 Pronouns: ... -->
