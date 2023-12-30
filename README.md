@@ -36,6 +36,8 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/abedobaah?label=abedobaah&color=14171A&labelColor=37474f&logoColor=4fc3f7)](https://twitter.com/abed_obaah)
 [![LinkedIn Connect](https://img.shields.io/badge/%20-Connect-black?color=14171A&labelColor=ffffff&logo=linkedin&logoColor=0e76a8)](https://www.linkedin.com/in/abednego-obaah/)
 
+<img width="431" alt="Pro1" src="https://github.com/abed-obaah/abed-obaah/assets/96961755/6a74be5f-7992-4500-85d8-c659f0948b60">
+
 <!-- **abed-obaah/abed-obaah**  ✨ _special_ ✨ -->
 <!-- Here are some ideas to get you started: -->
 
