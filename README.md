@@ -1,5 +1,5 @@
 <h1 align="center">Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px" height="30px">, I'm Abednego Obaah</h1>
-<h3 align="center">Frontend Developer [Web && Mobile]</h3>
+<h3 align="center">Software Developer [Web && Mobile]</h3>
 <p align="center">
   <em>
   Passionate self-taught frontend developer from Nigeria, enjoys fixing & writing clean codes.<br>
