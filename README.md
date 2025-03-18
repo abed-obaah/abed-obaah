@@ -2,7 +2,7 @@
 <h3 align="center">Software Developer [Web && Mobile]</h3>
 <p align="center">
   <em>
-  Passionate self-taught frontend developer from Nigeria, enjoys fixing & writing clean codes.<br>
+  Passionate self-taught software developer from Nigeria, enjoys fixing & writing clean codes.<br>
   I love tackling complex problems and will continue to find ways to maximize user efficiency.
   </em>
 </p>
